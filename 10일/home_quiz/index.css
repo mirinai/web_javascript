@@ -1,0 +1,14 @@
+.upper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+.under {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
