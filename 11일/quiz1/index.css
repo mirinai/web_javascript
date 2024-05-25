@@ -1,0 +1,24 @@
+.box {
+  border: 1px solid;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+
+.medium {
+  width: 100px;
+  height: 100px;
+}
+.large {
+  width: 200px;
+  height: 200px;
+}
+.borderRadiusZero {
+  border-radius: 0;
+}
+.borderRadiusTen {
+  border-radius: 10px;
+}

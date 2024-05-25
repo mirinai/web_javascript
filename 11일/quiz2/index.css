@@ -1,0 +1,60 @@
+nav {
+  display: flex;
+  flex-direction: column;
+}
+nav > div {
+  margin-top: 2px;
+}
+.floor {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  border: 1px solid black;
+}
+.red {
+  background-color: red;
+}
+.orange {
+  background-color: orange;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+
+.small {
+  width: 100px;
+  height: 100px;
+}
+.medium {
+  width: 200px;
+  height: 200px;
+}
+.large {
+  width: 300px;
+  height: 300px;
+}
+.x-large {
+  width: 400px;
+  height: 400px;
+}
+.xx-large {
+  width: 500px;
+  height: 500px;
+}
+
+.borderRadiusZero {
+  border-radius: 0px;
+}
+.borderRadiusTen {
+  border-radius: 10px;
+}
+.borderRadiusTwenty {
+  border-radius: 20px;
+}
