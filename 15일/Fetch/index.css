@@ -1,0 +1,43 @@
+/* section {
+  display: flex;
+  flex-direction: column;
+}
+.table {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  justify-content: space-between;
+}
+.table_data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} */
+
+/* .head {
+  display: flex;
+  flex-direction: column;
+}
+.head > h3 {
+  color: blue;
+} */
+.table {
+  width: 100vw;
+  max-width: 1400px;
+  margin: 0 auto;
+  border: 1px solid #dbdbdb;
+  padding: 20px 50px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.tabel_data {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dbdbdb;
+}
+.tabel_data > div {
+  flex: 1; /* 비율을 1로 가져라*/
+  text-align: center;
+}
